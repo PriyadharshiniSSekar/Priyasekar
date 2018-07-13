@@ -6,7 +6,7 @@ public class Thirdkid {
       if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
     	  System.out.println("Vowels");
       }
-      else if((ch>='b'&& ch<='z')&&(!(ch=='e'||ch=='i'||ch=='o'||ch=='u'))){
+      else if((ch>='b'&& ch<='z') && (!(ch=='e'||ch=='i'||ch=='o'||ch=='u'))){
     	  System.out.println("Consonants");
       }
       else{
